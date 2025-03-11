@@ -4,7 +4,8 @@ import java.util.*;
 public class P3_ThreeSum {
 	public static List<List<Integer>> threeSum(int[] nums) {
 		List<List<Integer>> result = new ArrayList<>();
-		if (nums == null || nums.length < 3) {
+		if (nums == null || nums.length < 3)
+		{
 			return result; // No valid triplets
 		}
 		// Sort the array to use two-pointer technique

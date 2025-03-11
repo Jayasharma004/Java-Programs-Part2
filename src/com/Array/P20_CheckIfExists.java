@@ -3,6 +3,7 @@ package com.Array;
 import java.util.HashMap;
 import java.util.Map;
 
+// https://leetcode.com/problems/check-if-n-and-its-double-exist/description/
 public class P20_CheckIfExists {
 	private static boolean checkIfExist(int[] arr)
 	{

@@ -23,9 +23,11 @@ public class P1_Comparator {
 		list.add(new Product(2, "Dress",3000f));
 		list.add(new Product(3,"Glasses",1000f));
 		System.out.println("Sorting below on basis of name");
-		Collections.sort(list,(p1,p2)->{
+		list.sort((s1, s2) -> s1.name.compareTo(s2.name)); // this also works
+		
+		/*Collections.sort(list,(p1,p2)->{
 		return p1.name.compareTo(p2.name);
-		});
+		});*/ // this also works
 		for(Product p : list)
 		{
 			System.out.println("ID : "+p.id);

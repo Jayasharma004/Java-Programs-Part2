@@ -1,6 +1,4 @@
 package com.Array;
-
-
 import java.util.Arrays;
 
 /**
@@ -17,13 +15,10 @@ public class P11_ShuffleArrayOnCondition {
 		}
 		return resultArray;
 	}
-	
 	public static void main(String[] args) {
 		int []nums = {1,2,3,4,5,6,7,8};
 		int n = 4;
 		int[] resultArray = P11_ShuffleArrayOnCondition.shuffle(nums,n);
 		System.out.println("resultArray : "+ Arrays.toString(resultArray));
 	}
-	
-	
 }

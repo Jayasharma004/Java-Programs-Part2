@@ -22,6 +22,4 @@ public class P12_ShuffleArrayRandomly {
 		P12_ShuffleArrayRandomly.shuffleRandom(arr);
 		P12_ShuffleArrayRandomly.shuffleRandom(arr);
 	}
-	
-	
 }

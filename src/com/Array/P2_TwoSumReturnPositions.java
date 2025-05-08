@@ -21,13 +21,10 @@ public class P2_TwoSumReturnPositions {
 		return resultPositions;
 	}
 	
-	
 	public static void main(String[] args) {
 		int[] nums = {6,8,3,5,9,10,11,7,15};
 		int target = 18;
 		int[] finalNumbers = towSum(nums, target);
 		System.out.println("result : "+ Arrays.toString(finalNumbers));
 	}
-	
-	
 }

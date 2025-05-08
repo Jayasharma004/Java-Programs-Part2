@@ -36,6 +36,5 @@ public class P1_TwoSumReturnNumbersAfterSorting {
 		int target = 18;
 		int[] finalNumbers = twoSum(nums, target);
 		System.out.println("result : "+ Arrays.toString(finalNumbers));
-		
 	}
 }

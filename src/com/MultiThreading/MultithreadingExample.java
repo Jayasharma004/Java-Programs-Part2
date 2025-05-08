@@ -1,21 +1,15 @@
 package com.MultiThreading;
 
 public class MultithreadingExample {
-
-	static class MyThread extends Thread
-	{
+	
+	static class MyThread extends Thread {
 		@Override
-		public void run()
-		{
-			for (int i = 1; i <= 5; i++)
-			{
+		public void run() {
+			for (int i = 1; i <= 5; i++) {
 				System.out.println(Thread.currentThread().getName() + " - Extending Thread: " + i);
-				try
-				{
+				try {
 					Thread.sleep(500); // Pause for 500ms
-				}
-				catch (InterruptedException e)
-				{
+				} catch (InterruptedException e) {
 					System.err.println(e.getMessage());
 				}
 			}
